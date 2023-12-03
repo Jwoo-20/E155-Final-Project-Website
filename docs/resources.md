@@ -6,6 +6,7 @@ permalink: /resources/
 
 # References
 [1] "Specifications of LED Dot Matrix" [https://drive.google.com/file/d/1xUFJVkhH5ZRTYszyMqNcLxXSa_bIb7wQ/view](https://drive.google.com/file/d/1xUFJVkhH5ZRTYszyMqNcLxXSa_bIb7wQ/view)
+
 [2] "APDS-9960 Digital Proximity, Ambient Light, RGB and Gesture Sensor Data Sheet" Digikey. [https://docs.broadcom.com/doc/AV02-4191EN](https://docs.broadcom.com/doc/AV02-4191EN)
 
 
