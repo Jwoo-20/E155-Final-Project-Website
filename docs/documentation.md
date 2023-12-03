@@ -17,8 +17,8 @@ The source code for the project is located in the Github repository [here](https
 
 | Item | Part Number | Quantity | Unit Price | Link |
 | ---- | ----------- | ----- | ---- | ---- |
-| APDS 9960 Motion/Gesure Sensor |  9960 | 1 | $8.99 |  [link]([https://www.adafruit.com/product/3317](https://www.amazon.com/HiLetgo-APDS-9960-Recognition-Direction-Proximity/dp/B01NACU412/ref=sr_1_1_sspa?keywords=APDS-9960&qid=1698479866&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)https://www.amazon.com/HiLetgo-APDS-9960-Recognition-Direction-Proximity/dp/B01NACU412/ref=sr_1_1_sspa?keywords=APDS-9960&qid=1698479866&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1]) |
-| Mini Metal Gear Analog Servo |  ES08MA | 2 | $12.99 |  [link]([https://www.amazon.com/ES08MA-Metal-Analog-Servo-Model/dp/B09SPLXDN4?th=1]) |
+| APDS 9960 Motion/Gesure Sensor |  9960 | 1 | $8.99 |  [link](https://www.adafruit.com/product/3317](https://www.amazon.com/HiLetgo-APDS-9960-Recognition-Direction-Proximity/dp/B01NACU412/ref=sr_1_1_sspa?keywords=APDS-9960&qid=1698479866&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)https://www.amazon.com/HiLetgo-APDS-9960-Recognition-Direction-Proximity/dp/B01NACU412/ref=sr_1_1_sspa?keywords=APDS-9960&qid=1698479866&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| Mini Metal Gear Analog Servo |  ES08MA | 2 | $12.99 |  [link](https://www.amazon.com/ES08MA-Metal-Analog-Servo-Model/dp/B09SPLXDN4?th=1) |
 | 4x4 Matrix Keypad |   | 1 |  |   |
 | PLA for 3D printing |   |  |  |   |
 | L293x Quadruple Half-H Driver  |  L293D | 1 |  |   |
