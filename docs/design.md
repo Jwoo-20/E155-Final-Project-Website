@@ -25,7 +25,7 @@ The keypad code detection works by reading the inputs from the keypad matrix, st
 The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state.
 
 <div style="text-align: left">
-  <img src="./assets/img/enablestateFSM.png" alt="enablestateFSM" />
+  <img src=".docs/assets/img/enablecodeFSM.png" alt="enablestateFSM" />
 </div>
 
 
