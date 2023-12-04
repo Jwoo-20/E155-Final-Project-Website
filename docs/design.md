@@ -40,3 +40,8 @@ Once the system detects a change in the state, it will play a multi-frame animat
 <div style="text-align: left">
   <img src="./assets/schematics/FPGATopBlock.png" alt="FPGA Top Level Block Diagram" />
 </div>
+Shown above is the top-level FPGA block diagram. This is the module that calls all other modules and has the FPGA inputs and outputs. Many of these modules have sub-modules or finite state machines that help them operate. The top-level module calls the modules that operate the keypad and the LEDs.
+
+
+
+
