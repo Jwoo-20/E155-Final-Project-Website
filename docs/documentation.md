@@ -21,10 +21,10 @@ The source code for the project is located in the Github repository [here](https
 | Mini Metal Gear Analog Servo |  ES08MA | 2 | $12.99 |  [link](https://www.amazon.com/ES08MA-Metal-Analog-Servo-Model/dp/B09SPLXDN4?th=1) |
 | 4x4 Matrix Keypad |   | 1 |  |   |
 | PLA for 3D printing |   |  |  |   |
-| L293x Quadruple Half-H Driver  |  L293D | 1 |  |   |
-| 8x8 LED dot matrix display | ELLEDMTX88RD01  | 6 |  |   |
-| 330 ohm resistor |   | 16 |  |   |
-| NPN Transistor |  2N3906 | 8 |  |   |
+| L293D Quadruple Half-H Driver  |  L293D | 1 |  |   |
+| 8x8 LED dot matrix display | KWM-2088CUB  | 6 |  |   |
+| 330 ohm resistor |   | 17 |  |   |
+| NPN Transistor |  2N3906 | 9 |  |   |
 
 
 
