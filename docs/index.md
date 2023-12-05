@@ -30,7 +30,6 @@ The block diagram of the full system is shown above. The MCU communicates with t
 # Authors
 
 
-James Woo, Pomona '24. Majoring in physics with an interest in electrical and embedded engineering.
 
 <div style="text-align: left">
 <span>
@@ -38,8 +37,9 @@ James Woo, Pomona '24. Majoring in physics with an interest in electrical and em
   <img style="border-radius: 50%;" src="./assets/img/JW_Image.png" alt = "James Woo" width="100" />
  </a>
 
+James Woo, Pomona '24. Majoring in physics with an interest in electrical and embedded engineering.
 
-Kaito Robson, Pomona '24.
+
 
   <a href="https://www.linkedin.com/in/kaitorobson/" target="_blank">
   <img style="border-radius: 50%;" src="./assets/img/KR_Image.jpg" alt = "Kaito Robson" width="100" />
@@ -47,7 +47,7 @@ Kaito Robson, Pomona '24.
 </span>
 </div>
 
-
+Kaito Robson, Pomona '24.
 
 
 
