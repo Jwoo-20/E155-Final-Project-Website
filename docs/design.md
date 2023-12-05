@@ -48,4 +48,4 @@ Shown above is the top-level FPGA block diagram. This is the module that calls a
   <img src="./docs/assets/schematics/FPGALEDBlock.png" alt="FPGA LED Output Block Diagram" />
 </div>
 
-
+The modules frames and restart frames are responsible for keeping track of which frame to display. The frames module simply counts up and then stops once it hits the desired frame number, restart frames tells the frames module to start from the beginning whenever the system enters a new state. The frame is fed into each of the on_disp, off_disp, and easteregg_disp. These three modules all calculate which dots to turn on in the matrix based on what frame the system is on. It sends that information to the out picker module which determines which dots will be displayed based on what state the system is in. That is then given to the led time multiplexing module which outputs which rows and columns to drive. The time multiplexing works by very quickly cycling through the rows and driving the corresponding column for the dots on that row.
