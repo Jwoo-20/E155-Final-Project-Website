@@ -38,6 +38,9 @@ James Woo, Pomona '24. Majoring in physics with an interest in electrical and em
   <img style="border-radius: 50%;" src="./assets/img/JW_Image.png" alt = "James Woo" width="100" />
  </a>
 
+
+Kaito Robson, Pomona '24.
+
   <a href="https://www.linkedin.com/in/kaitorobson/" target="_blank">
   <img style="border-radius: 50%;" src="./assets/img/KR_Image.jpg" alt = "Kaito Robson" width="100" />
  </a>
