@@ -40,8 +40,9 @@ Once the system detects a change in the state, it will play a multi-frame animat
 <div style="text-align: left">
   <img src="./assets/schematics/FPGATopBlock.png" alt="FPGA Top Level Block Diagram" />
 </div>
-Shown above is the top-level FPGA block diagram. This is the module that calls all other modules and has the FPGA inputs and outputs. Many of these modules have sub-modules or finite state machines that help them operate. The top-level module calls the modules that operate the keypad and the LEDs.
+Shown above is the top-level FPGA block diagram. This is the module that calls all other modules and has the FPGA inputs and outputs. Many of these modules have sub-modules or finite state machines that help them operate. The top-level module calls the modules that operate the keypad and the LEDs. The synchronizer simply synchronizes the inputs from the rows with the clock. The keypad scanner module is the main module that deals with scanning through the columns and determines which button was pressed. It sends the info for the keypresses to the hex digit module. The hex digit module stores the five most recent key presses and compares those to the known codes. The information of whether a code is stored in the registers is then sent to the combinational logic and dig check modules to determine which state the system should be in and what values to output. The functionality and finite state machine diagrams are described in the section above. 
 
+The module led_outputs is the module that controls the LED eyes. It performs the required calculations to determine which LEDs to turn on and at which time. The block diagram is shown below. 
 
 
 
