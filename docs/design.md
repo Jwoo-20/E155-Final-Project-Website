@@ -48,3 +48,6 @@ Shown above is the top-level FPGA block diagram. This is the module that calls a
   <img src="./assets/schematics/FPGALEDBlock.png" alt="FPGA LED Output Block Diagram" />
 </div>
 
+<div style="text-align: left">
+  <img src="./assets/schematics/fullBlockDiagram.jpg" alt="fullBlockDiagram" />
+</div>
