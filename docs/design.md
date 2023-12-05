@@ -45,9 +45,7 @@ Shown above is the top-level FPGA block diagram. This is the module that calls a
   The module led_outputs is the module that controls the LED eyes. It performs the required calculations to determine which LEDs to turn on and at which time. The block diagram is shown below. 
 
 <div style="text-align: left">
-  <img src="./assets/schematics/FPGALEDBlock.png" alt="FPGA LED Output Block Diagram" />
+  <img src="./docs/assets/schematics/FPGALEDBlock.png" alt="FPGA LED Output Block Diagram" />
 </div>
 
-<div style="text-align: left">
-  <img src="./assets/schematics/fullBlockDiagram.jpg" alt="fullBlockDiagram" />
-</div>
+
