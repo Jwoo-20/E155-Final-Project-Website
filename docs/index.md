@@ -32,7 +32,7 @@ The block diagram of the full system is shown above. The MCU communicates with t
 <div style="text-align: left">
 <span>
  <a href="https://www.linkedin.com/in/james-m-woo/" target="_blank">
-  <img style="border-radius: 50%;" src="./assets/img/JW_Image.jpg" alt = "James Woo" width="100" />
+  <img style="border-radius: 50%;" src="./assets/img/JW_Image.png" alt = "James Woo" width="100" />
  </a>
 
   <a href="https://www.linkedin.com/in/kaitorobson/" target="_blank">
