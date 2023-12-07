@@ -5,12 +5,17 @@ permalink: /resources/
 ---
 
 # References
-[1] "Specifications of LED Dot Matrix" [https://drive.google.com/file/d/1xUFJVkhH5ZRTYszyMqNcLxXSa_bIb7wQ/view](https://drive.google.com/file/d/1xUFJVkhH5ZRTYszyMqNcLxXSa_bIb7wQ/view)
+[1] "Dot Matrix LED Displays Technical Data Sheet" Luckylight. [https://www.tme.eu/Document/3d4d184101956f5195f2358973cd1457/KWM-20882XUYB.pdf](https://www.tme.eu/Document/3d4d184101956f5195f2358973cd1457/KWM-20882XUYB.pdf)
 
-[2] "APDS-9960 Digital Proximity, Ambient Light, RGB and Gesture Sensor Data Sheet" Digikey. [https://docs.broadcom.com/doc/AV02-4191EN](https://docs.broadcom.com/doc/AV02-4191EN)
+[2] "STM32L41xxx/42xxx/43xxx/44xxx/45xxx/46xxx advanced Arm®-based 32-bit MCUs" STM. [https://pages.hmc.edu/brake/class/e155/fa23/assets/doc/rm0394-stm32l41xxx42xxx43xxx44xxx45xxx46xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf](https://pages.hmc.edu/brake/class/e155/fa23/assets/doc/rm0394-stm32l41xxx42xxx43xxx44xxx45xxx46xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 
 
 
 # Inspiration
 
 The inspiration for this project comes from the popular Marvel Comics character Iron Man. Further inspiration for the mask opening and closing comes from [here](https://youtu.be/9uIXtODioGM?si=inA8PGjUw7Hp7eMh). The 3D print files for the helmet come from [here](https://cults3d.com/en/3d-model/various/iron-man-helmet-articulated-wearable). This project builds on the one from the video by adding a gesture sensor to control the helmet, a keypad to require a code before it becomes functional, and LED eyes that can display different patterns.
+
+
+# Acknowledgements
+
+We would like to thank Professor Brake and Professor Tina for their support and assistance throughout this class as well as the project. 
