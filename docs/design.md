@@ -8,6 +8,8 @@ There are two major pieces of new hardware in this project. The first is the APD
 
 # MCU Design
 
+The MCU serves two functions. The first is to interface with the APDS 9960 motion/gesture sensor over I2C, and the second is to control the Mini Metal Gear Analog Servo. 
+
 ## MCU Block Diagram
 
 # FPGA Design
