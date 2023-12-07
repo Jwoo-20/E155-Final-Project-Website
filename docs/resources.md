@@ -18,4 +18,4 @@ The inspiration for this project comes from the popular Marvel Comics character 
 
 # Acknowledgements
 
-We would like to thank Professor Brake and Professor Tina for their support and assistance throughout this class as well as the project. 
+We would like to thank Professor Brake and Professor Tina for their support and assistance throughout this class as well as the project. Thank you to Hardy Richardson for assisting with 3D printing the helmet and fixing the 3D printers when they broke.
