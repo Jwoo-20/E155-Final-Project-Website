@@ -63,7 +63,7 @@ The LEDs controlled by time multiplexing are not the only LEDs that light up. Th
 
 ## Discussion of Setbacks
 
-Unfortunately, we were unable to get I2C working with the APDS-9960 gesture sensor. Our first attempt was a bare-metal approach, copying a similar format to past labs, creating correspnding STM32L432KC_I2C.c and STM32L432KC_I2C.h files. Before explaining in detail of our issues, here is some information about I2C. The I2C protocol, short for Inter-Integrated Circuit, is a communication protocol primarily used for low-speed, short-distance communication between multiple devices. It uses only two bidirectional open-drain lines, Serial Data (SDA) and Serial Clock (SCL), with each device on the I2C bus being software-addressable by a unique address.
+Unfortunately, we were unable to get I2C working with the APDS-9960 gesture sensor. Our first attempt was a bare-metal approach, copying a similar format to past labs, creating correspnding .c and .h files. Before explaining in detail of our issues, here is some information about I2C. The I2C protocol, short for Inter-Integrated Circuit, is a communication protocol primarily used for low-speed, short-distance communication between multiple devices. It uses only two bidirectional open-drain lines, Serial Data (SDA) and Serial Clock (SCL), with each device on the I2C bus being software-addressable by a unique address.
 
 To start I2C, there is an initialization process, which includes enabling the clock for GPIOB (since we chose pins B6 and B7 for SCL and SDA respectively), setting those GPIOS to open drain, alternate function mode, setting AF04 as the alternate function selection, and setting the appropriate bits in the I2C_TIMINGR register, depending on the device communicating over I2C.
 
