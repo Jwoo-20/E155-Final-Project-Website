@@ -17,6 +17,11 @@ The servo is controlled using PWM from TIM2 on the MCU. As mentioned before, dif
 
 ![PWM Diagram](./assets/img/TIM2PWM.png)
 
+The MCU also keeps track of which state it is in (open/closed) as well as polling whether the FPGA has sent it the signal that it is in the enable state. This way, the MCU will only drive the motor if the system is enabled. The open/closed tracking is used not only for which position it should move the motor to when it is told to switch, but also for telling the FPGA so that it can know if the mask is open or closed.
+
+
+
+
 ## MCU Block Diagram
 
 # FPGA Design
