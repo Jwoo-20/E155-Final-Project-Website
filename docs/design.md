@@ -37,7 +37,7 @@ The keypad code detection works by reading the inputs from the keypad matrix, st
 
 The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state. The FPGA sends a signal to the MCU via GPIO telling it whether or not it is enabled. 
 
-  ![FSM Diagram for Enable State](.docs/assets/img/enablecodeFSM.png)
+  ![FSM Diagram for Enable State](./assets/img/enablecodeFSM.png)
 
 Once the system detects a change in the state, it will play a multi-frame animation on the LED eyes. This is done by starting a frame counter as soon as the state changes. Each frame has a combination of LEDs that correspond to it for each different lighting sequence (enable, secret code enable, and disable). A multiplexer then decides which of the frames to display based on the enable state and the frame. Because each LED matrix has 64 total LEDs but only 16 pins, it is necessary to use time multiplexing to display any combination of the LEDs. This works by cycling through each row of the LED matrix and lighting up the LEDs in the specified columns in that row. By cycling through the rows fast enough it is possible to seamlessly display any pattern on the LEDs. By using time multiplexing, frame counting, and multiplexing based on the enable state the system can display multiple unique animations and frames for each power up/down sequence.
 
