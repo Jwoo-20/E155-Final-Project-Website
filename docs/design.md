@@ -7,7 +7,7 @@ permalink: /design/
 There are two major pieces of new hardware in this project. The first major piece of new hardware is a servo motor.  The motor is used to control the movement of the opening and closing of the mask. This is done by using pulse width modulation. The servo motor takes a PWM signal in as an input and based on the duty cycle of that signal, the motor changes its position. By using a timer with a customizable PWM output we are able to rotate the motor to whatever position we desire. This controls the opening and closing of the mask. Although PWM has been covered in the class before, it was focused on frequency and note pitch. This application is focused on modular duty cycles and how they can be used to control motors. 
 
 
-The second piece of new hardware is the RCWL-1601 ultrasonic distance sensor. This is used to control the opening and closing of the helmet. If the system is in an enabled state and someone puts their hand close to the distance sensor, it will trigger and the helmet will toggle open/closed.
+The second piece of new hardware is the 8x8 LED matrices. LEDs and segment displays have been used previously in the class but not in this way. Previously, they were used as less of dynamic displays. They would only update when the inputs changed or by a very simple clock divider, the LED matrices being used here are very dynamic, they play through short animations on their own and they use time multiplexing to display any pattern/combination of the 64 available LEDs in the 8x8 matrix.
 
 # MCU Design
 
