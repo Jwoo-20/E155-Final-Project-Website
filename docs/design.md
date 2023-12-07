@@ -6,9 +6,16 @@ permalink: /design/
 # New Hardware
 There are two major pieces of new hardware in this project. The first major piece of new hardware is a servo motor.  The motor is used to control the movement of the opening and closing of the mask. This is done by using pulse width modulation. The servo motor takes a PWM signal in as an input and based on the duty cycle of that signal, the motor changes its position. By using a timer with a customizable PWM output we are able to rotate the motor to whatever position we desire. This controls the opening and closing of the mask. Although PWM has been covered in the class before, it was focused on frequency and note pitch. This application is focused on modular duty cycles and how they can be used to control motors. 
 
+
+The second piece of new hardware is the RCWL-1601 ultrasonic distance sensor. This is used to control the opening and closing of the helmet. If the system is in an enabled state and someone puts their hand close to the distance sensor, it will trigger and the helmet will toggle open/closed.
+
 # MCU Design
 
-The MCU serves two functions. The first is to interface with the APDS 9960 motion/gesture sensor over I2C, and the second is to control the Mini Metal Gear Analog Servo. 
+The MCU serves two functions. The first is to interface with the distance sensor and the second is to control the Mini Metal Gear Analog Servo. 
+
+The servo is controlled using PWM from TIM2 on the MCU. As mentioned before, different duty cycles correspond to different rotational positions for the servo. Once the input to change the position of the helmet from open to closed or closed to open, the PWM duty cycle is changed. The motor requires a lot of current in order to operate due to the fact that it requires a significant amount of torque to move the mask with all of its wires and LEDs. The PWM signal is simply the control signal for the motor, the power comes from a 5V benchtop power supply. This is because the power supply is able to supply far more current than the FPGA or MCU would be able to and thus can safely drive the motor without worrying about blowing out a GPIO pin with too much current or not being able to provide enough current for the torque. Below is shown the timing diagram of the modular PWM signal on TIM2 of the MCU.
+
+![PWM Diagram](./assets/img/TIM2PWM.png)
 
 ## MCU Block Diagram
 
@@ -23,7 +30,7 @@ The keypad code detection works by reading the inputs from the keypad matrix, st
 
 
 
-The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state.
+The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state. The FPGA sends 
 
   ![FSM Diagram for Enable State](.docs/assets/img/enablecodeFSM.png)
 
