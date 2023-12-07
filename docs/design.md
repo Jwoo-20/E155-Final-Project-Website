@@ -4,7 +4,7 @@ title: Design
 permalink: /design/
 ---
 # New Hardware
-There are two major pieces of new hardware in this project. The first is the APDS 9960 motion/gesture sensor. This sensor is being used to detect when to open and close the mask. The other new hardware is the EMAX ES08MA servo motor. The motors are used to control the movement of the opening and closing of the mask.
+There are two major pieces of new hardware in this project. The first major piece of new hardware is a servo motor.  The motor is used to control the movement of the opening and closing of the mask. This is done by using pulse width modulation. The servo motor takes a PWM signal in as an input and based on the duty cycle of that signal, the motor changes its position. By using a timer with a customizable PWM output we are able to rotate the motor to whatever position we desire. This controls the opening and closing of the mask.
 
 # MCU Design
 
