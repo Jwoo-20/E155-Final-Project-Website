@@ -10,7 +10,7 @@ permalink: /doc/
 # Source Code Overview
 <!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
 
-The source code for the project is located in the Github repository [here](https://github.com/Jwoo-20/E155-Final-Project-Website/tree/main/src).
+The source code for the project is located in the Github repository [here](https://github.com/Jwoo-20/E155-Final-Project-Website/tree/main/src). The src folder is divided into three subfolders. FPGACode contains the files uploaded to the UPduino 3.1. In it there are three different files, main.sv, ledoutputs.sv, and keypad.sv. The files work together to run all the necessary functionalities performed by the FPGA. The folder MCUCode contains all the files and headers uploaded to the NUCLEO MCU. These files contain addresses, registers, functions, and everything else necessary to get the MCU to perform its functions.
 
 # Bill of Materials
 <!-- The bill of materials should include all the parts used in your project along with the prices and links.  -->
