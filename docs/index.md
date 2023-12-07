@@ -21,7 +21,7 @@ A functional Iron Man suit is something that many people have wished for. Sadly,
 
 # System Block Diagram
 <div style="text-align: left">
-  <img src="./assets/schematics/FinalProjectFullBlock" alt="fullBlockDiagram" />
+  <img src="./assets/schematics/FinalProjectFullBlock" alt="fullBlockDiagram.png" />
 </div>
 
 The block diagram of the full system is shown above. The MCU communicates with the gesture sensor using the I2C communication protocol. The MCU controls the motors via a driver while using PWM to control the position. The MCU and FPGA communicate with each other using direct connections. There are only two pieces of information that need to be communicated (whether the keypad has gotten the correct enable code and whether the helmet is open or closed) so a simple connection is sufficient. The FPGA interfaces with the keypad, scanning through the columns while reading the rows to read 16 different key inputs. The FPGA also controls the 8x8 LED matrices using time multiplexing. This allows the MCU to light up any combination of the 64 individual LED dots using 16 connections.
