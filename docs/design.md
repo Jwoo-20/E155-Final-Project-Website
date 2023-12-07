@@ -30,7 +30,7 @@ The keypad code detection works by reading the inputs from the keypad matrix, st
 
 
 
-The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state. The FPGA sends 
+The code detection and enable state are also done using finite state machines. The system starts in the disabled state. Once the right five digits in the right order are stored in the registers the state changes from disabled to enabled. It will stay in that state until the correct disable code is input where it will then enter the disabled state. The FPGA sends a signal to the MCU via GPIO telling it whether or not it is enabled. 
 
   ![FSM Diagram for Enable State](.docs/assets/img/enablecodeFSM.png)
 
