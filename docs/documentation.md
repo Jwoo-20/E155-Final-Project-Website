@@ -24,6 +24,7 @@ The source code for the project is located in the Github repository [here](https
 | L293D Quadruple Half-H Driver  |  L293D | 1 |  | Storeroom  |
 | 8x8 LED dot matrix display | KWM-2088CUB  | 6 |  | Storeroom  |
 | 330 ohm resistor |   | 17 |  | Storeroom  |
+| 1000 ohm resistor | | 1 | | Storeroom |
 | NPN Transistor |  2N3906 | 9 |  | Storeroom  |
 | Relay| EC2-5NJ | 1 | | Storeroom |
 
