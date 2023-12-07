@@ -1,3 +1,10 @@
+/*
+James Woo, jmwa2020@mymail.pomona.edu
+Kaito Robson, kara2020@mymail.pomona.edu
+12/7/2023
+Calculates which patterns to display on the LED matrices
+*/
+
 //displays led animation based on inputs from the keypad	
 module led_outputs(
      input logic clk, reset, enab, disab, eegg,
