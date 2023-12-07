@@ -8,7 +8,8 @@ permalink: /doc/
 <!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
 
 
-![Full Schematics](./assets/schematics/FinalProjectSchematics.pdf)
+
+<object data="../assets/schematics/FinalProjectSchematics.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 # Source Code Overview
 <!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
