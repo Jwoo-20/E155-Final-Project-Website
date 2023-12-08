@@ -9,7 +9,7 @@ permalink: /resources/
 
 [2] "STM32L41xxx/42xxx/43xxx/44xxx/45xxx/46xxx advanced Arm®-based 32-bit MCUs" STM. [https://pages.hmc.edu/brake/class/e155/fa23/assets/doc/rm0394-stm32l41xxx42xxx43xxx44xxx45xxx46xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf](https://pages.hmc.edu/brake/class/e155/fa23/assets/doc/rm0394-stm32l41xxx42xxx43xxx44xxx45xxx46xxx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
 
-
+[3] "Iron Man Helmet, Articulated, Wearable" Box and Loop. [https://www.youtube.com/watch?v=9uIXtODioGM&ab_channel=BoxandLoop](https://www.youtube.com/watch?v=9uIXtODioGM&ab_channel=BoxandLoop)
 
 # Inspiration
 
