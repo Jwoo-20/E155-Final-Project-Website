@@ -44,8 +44,8 @@ int main(void) {
 
   pinMode(PA5, GPIO_ALT); //TIM2 PWM Output alternate function
   pinMode(PA4, GPIO_INPUT); //Button toggling open and close of helmet
-  pinMode(PA10, GPIO_INPUT);
-  pinMode(PA9, GPIO_OUTPUT);
+  pinMode(PA10, GPIO_INPUT);  //Reads whether the system is in the enable state from the FPGA
+  pinMode(PA9, GPIO_OUTPUT);  //TElls the FPGA if the mask is open or closed
 
   GPIOA->PUPDR |= _VAL2FLD(GPIO_PUPDR_PUPD4, 0b01); // Set PA4 as pull-up
   GPIOA->PUPDR |= _VAL2FLD(GPIO_PUPDR_PUPD10, 0b01); // Set PA10 as pull-up
