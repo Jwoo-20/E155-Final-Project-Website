@@ -93,8 +93,6 @@ module restart_frames(input logic clk, reset, enab, disab, eegg,
 endmodule
 
 
-
-
 //counter to count through the 32 frames of animation and then stop on the last one until a new code is put in
 module frames(input logic clk, reset, reset_frames,
 	input logic [4:0] counter,
