@@ -1,1 +1,1 @@
-This folder contains the code we attempted to use to set up I2C for the APDS-9960 and RCWL-1601.
+This folder contains the code we attempted to use to set up I2C for the APDS-9960 and RCWL-1601. main_bare_metal.c is the bare metal implementation, main_hal.c is the HAL implementation, and main_RCWL_1601.c is a bare metal interpretation for the RCWL-1601.
