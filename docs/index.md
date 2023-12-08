@@ -6,7 +6,7 @@ exclude: true
 ---
 
 # Project Abstract
-In this project, the team aims to build a decorative Iron Man helmet with a few functionalities that are seen in the movies. The system reads its inputs from a keypad and a gesture sensor using the field programmable gate array (FPGA) and microcontroller (MCU) respectively. Inside the helmet are mounted two motors which are able to open and close the face mask on the helmet. Where the eyes are on the mask are 8x8 LED matrices. The FPGA and MCU communicate with each other and use the inputs to determine when to open and close the helmet as well as what to display on the LED eyes. 
+In this project, the team aims to build a decorative Iron Man helmet with a few functionalities that are seen in the movies. The system reads its inputs from a keypad and a gesture sensor using the field programmable gate array (FPGA) and microcontroller (MCU) respectively. Inside the helmet is mounted a motor which is able to open and close the face mask on the helmet. Where the eyes are on the mask are multiple 8x8 LED matrices. The FPGA and MCU communicate with each other and use the inputs to determine when to open and close the helmet as well as what to display on the LED eyes. 
 
 
 <div style="text-align: left">
