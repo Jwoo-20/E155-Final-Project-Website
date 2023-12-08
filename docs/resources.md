@@ -11,6 +11,11 @@ permalink: /resources/
 
 [3] "Iron Man Helmet, Articulated, Wearable" Box and Loop. [https://www.youtube.com/watch?v=9uIXtODioGM&ab_channel=BoxandLoop](https://www.youtube.com/watch?v=9uIXtODioGM&ab_channel=BoxandLoop)
 
+[4] "APDS 9960 Datasheet" Avago Technologies. [https://cdn.sparkfun.com/assets/learn_tutorials/3/2/1/Avago-APDS-9960-datasheet.pdf](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/1/Avago-APDS-9960-datasheet.pdf)
+
+[5] "EC2-5NJ Datasheet" Kemet. [https://www.mouser.com/datasheet/2/447/KEM_R7002_EC2_EE2-3316920.pdf](https://www.mouser.com/datasheet/2/447/KEM_R7002_EC2_EE2-3316920.pdf)
+
+
 # Inspiration
 
 The inspiration for this project comes from the popular Marvel Comics character Iron Man. Further inspiration for the mask opening and closing comes from [here](https://youtu.be/9uIXtODioGM?si=inA8PGjUw7Hp7eMh). The 3D print files for the helmet come from [here](https://cults3d.com/en/3d-model/various/iron-man-helmet-articulated-wearable). This project builds on the one from the video by adding a gesture sensor to control the helmet, a keypad to require a code before it becomes functional, and LED eyes that can display different patterns.
