@@ -18,4 +18,4 @@ As you can see the helmet is able to open and close and the eyes light up in dif
 ![Helmet Power Down](./assets/img/helmetPowerDown.png)
 
 
-
+![FSM Diagram for Enable State](./assets/img/enablecodeFSM.png)
