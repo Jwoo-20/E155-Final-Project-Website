@@ -12,10 +12,8 @@ Below is a video showing the results of the project.
 
 As you can see the helmet is able to open and close and the eyes light up in different patterns based on if it is open or closed, enabled or disabled. Below are various states of function of the helmet.
 
-![Helmet Closed](./assets/img/helmetClosed.png)
-![Helmet Open](./assets/img/helmetOpen.png)
-![Helmet Power Up](./assets/img/helmetPowerUp.png)
-![Helmet Power Down](./assets/img/helmetPowerDown.png)
+![Helmet Closed](./assets/img/helmetClosed.jpg)
+![Helmet Open](./assets/img/helmetOpen.jpg)
+![Helmet Power Up](./assets/img/helmetPowerUp.jpg)
+![Helmet Power Down](./assets/img/helmetPowerDown.jpg)
 
-
-![FSM Diagram for Enable State](./assets/img/helmetClosed.png)
