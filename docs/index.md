@@ -33,7 +33,7 @@ The block diagram of the full system is shown above. The MCU communicates with t
 [James Woo](https://www.linkedin.com/in/james-m-woo/), Pomona '24. Majoring in physics with an interest in electrical and embedded engineering.
 
 
-[Kaito Robson](https://www.linkedin.com/in/kaitorobson/), Pomona '24. Majoring in physics. 
+[Kaito Robson](https://www.linkedin.com/in/kaitorobson/), Pomona '24. Majoring in physics with an interest in an engineering career.
 
 
 
