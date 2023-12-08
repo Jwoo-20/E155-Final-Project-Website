@@ -11,7 +11,7 @@ The second piece of new hardware is the 8x8 LED matrices. LEDs and segment displ
 
 # MCU Design
 
-The MCU serves two functions. The first is to interface with the distance sensor and the second is to control the Mini Metal Gear Analog Servo. 
+The MCU's main function is to control the motor that opens and closes the mask. It takes input from the FPGA as well as a button wired to an MCU GPIO pin to determine whether or not to change the position of the motor.
 
 The servo is controlled using PWM from TIM2 on the MCU. As mentioned before, different duty cycles correspond to different rotational positions for the servo. Once the input to change the position of the helmet from open to closed or closed to open, the PWM duty cycle is changed. The motor requires a lot of current in order to operate due to the fact that it requires a significant amount of torque to move the mask with all of its wires and LEDs. The PWM signal is simply the control signal for the motor, the power comes from a 5V benchtop power supply. This is because the power supply is able to supply far more current than the FPGA or MCU would be able to and thus can safely drive the motor without worrying about blowing out a GPIO pin with too much current or not being able to provide enough current for the torque. Below is shown the timing diagram of the modular PWM signal on TIM2 of the MCU [2].
 
@@ -20,9 +20,6 @@ The servo is controlled using PWM from TIM2 on the MCU. As mentioned before, dif
 The MCU also keeps track of which state it is in (open/closed) as well as polling whether the FPGA has sent it the signal that it is in the enable state. This way, the MCU will only drive the motor if the system is enabled. The open/closed tracking is used not only for which position it should move the motor to when it is told to switch, but also for telling the FPGA so that it can know if the mask is open or closed.
 
 
-
-
-## MCU Block Diagram
 
 # FPGA Design
 The FPGA has two major uses in the helmet. The first is reading the 4x4 matrix keypad. The keypad is used to detect whether or not the helmet is in its enabled mode. The helmet starts in a disabled mode, if the correct keypad code is put into the keypad, the helmet goes into the enabled mode. When the helmet is in the disabled mode the eye lights stay off and the mask will not be able to be opened. Once the correct enable code is put into the keypad the eyes light up and the mask is then able to be opened and closed using the gesture sensor. The second major use of the FPGA is the LED eyes. Each eye is made up of 8x8 LED matrices. When the correct enable code is put into the keypad, a short animation is played of the lights coming on. Another easter egg enable code is also installed. If that code is put into the keypad a different, cooler, animation is played on the eye LEDs before the helmet is put into the enable mode.
