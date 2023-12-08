@@ -1,0 +1,1 @@
+This folder contains the code we attempted to use to set up I2C for the APDS-9960 and RCWL-1601.
